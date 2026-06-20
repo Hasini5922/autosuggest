@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Suggest</title>
-    <style>
-        .top-left{
-            text-align: right;
-        }
-    </style>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/autosuggest.css">
 </head>
 <body>
-    <span class="gear">&#9881</span> 
-    <div class="top-left">
-        <span class="pill">&#8226</span> online | <span>&#128336</span> -ms
+    <div class="top-right">
+        <span class="gear">&#9881</span> 
+       <span class="pill">&#8226 online | &#128336 -ms</span>
     </div>
-    <h1>BeingInfinity</h1>
-    <p>One million phrases. Four algorithms. Prefix based auto-suggest.</p>
-    <div>
-        <span>&#128269</span>
-        <input type="text" placeholder="Start typing to search">
+    <div class="header">
+        <h1>
+            <span style="color: blue;">Being</span><span style="color: black;">Infinity</span>
+        </h1>
+        <p >One million phrases. Four algorithms. Prefix based auto-suggest.</p>
+        <div>
+            <span class="lens">&#128269</span>
+            <input class="search" type="text" placeholder="Start typing to search">
+        </div>
+        <div id="search-suggestions">
+            
+        </div>
     </div>
 </body>
 </html>
