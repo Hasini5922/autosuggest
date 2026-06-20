@@ -42,7 +42,7 @@ body{
     width: 200px;
     text-align: center;
     margin-top: 70px;
-    margin-left: 570px;
+    margin-left: 60px;
 }
 
 .card img{
@@ -50,7 +50,6 @@ body{
 }
 
 .card button{
-    padding: 10px 20px;
-    margin-bottom: 15px;
-    cursor: pointer;
+    padding-bottom:  20px;
+    margin-bottom: 3px;
 }
